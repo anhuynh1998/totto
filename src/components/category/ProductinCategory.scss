@@ -1,0 +1,28 @@
+.product-content-incate{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+   
+    .product-item{
+         cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+         &:hover{
+        border: 1px solid rgb(80, 255, 238);
+    }
+        .product-image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            img{
+                width: 70%;
+                
+            }
+        }
+    }
+}
